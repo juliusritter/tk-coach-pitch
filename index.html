@@ -262,40 +262,9 @@
   .lightbox .close:hover{background:#fff; color:var(--tk-ink); transform:rotate(90deg)}
   .lightbox .lb-cap{position:absolute; bottom:26px; left:50%; transform:translateX(-50%); color:rgba(255,255,255,.7); font-size:13px; font-weight:600; letter-spacing:.04em}
 
-
-  /* ============ SEKTION 5 — VITAMIN P. ============ */
-  #s5{background:#FBF7EF; color:var(--tk-ink)}
-  #s5 .eyebrow{color:#B8863A}
-  .vp-head{display:grid; grid-template-columns:1.05fr .95fr; gap:clamp(24px,4vw,64px); align-items:end; margin-bottom:clamp(28px,4vw,50px)}
-  .vp-title{font-weight:900; font-size:clamp(52px,8.5vw,128px); line-height:.86; letter-spacing:-.045em; margin-top:.15em}
-  .vp-title .p{color:var(--pilawa-gold)}
-  .vp-sub{font-size:clamp(20px,2vw,30px); font-weight:800; letter-spacing:-.025em; line-height:1.1; margin-top:.5em}
-  .vp-claim{font-size:clamp(18px,1.6vw,23px); font-weight:700; letter-spacing:-.015em; line-height:1.3; color:#B8863A; margin-bottom:14px}
-  #s5 .lead{max-width:52ch}
-  .vp-grid{display:grid; grid-template-columns:repeat(5,1fr); gap:12px}
-  .vp-card{background:#fff; border:1px solid rgba(184,134,58,.22); border-radius:18px; padding:20px 18px; transition:all .5s var(--ease)}
-  .vp-card:hover{transform:translateY(-4px); border-color:var(--pilawa-gold); box-shadow:0 18px 40px -20px rgba(184,134,58,.45)}
-  .vp-card .k{font-size:11px; font-weight:800; letter-spacing:.18em; text-transform:uppercase; color:#B8863A}
-  .vp-card .v{font-size:clamp(18px,1.55vw,22px); font-weight:900; letter-spacing:-.025em; margin:7px 0 8px; line-height:1.05}
-  .vp-card .x{font-size:13.5px; color:var(--tk-ink-soft); font-weight:500; line-height:1.45}
-  /* ============ SEKTION 5b — GESUND GEDACHT ============ */
-  #s5b{background:linear-gradient(180deg,#1F1A12 0%, #16120C 100%); color:#fff}
-  #s5b .eyebrow{color:var(--pilawa-gold)}
-  .gg-grid{display:grid; grid-template-columns:1fr 1fr; gap:clamp(30px,5vw,80px); align-items:start}
-  .gg-lines{font-weight:900; text-transform:uppercase; letter-spacing:-.015em; font-size:clamp(20px,2.4vw,34px); line-height:1.05; margin-top:26px}
-  .gg-lines em{font-style:normal; color:var(--pilawa-gold)}
-  #s5b .lead{color:rgba(255,255,255,.78); margin-top:20px}
-  .gg-sectors{display:flex; flex-wrap:wrap; gap:8px; margin-top:22px}
-  .gg-sectors span{padding:8px 14px; border:1px solid rgba(255,255,255,.22); border-radius:100px; font-weight:600; font-size:13px}
-  .gg-q{font-size:clamp(22px,2.4vw,34px); font-weight:800; letter-spacing:-.03em; line-height:1.1; margin:18px 0 14px}
-  .gg-q span{color:var(--pilawa-gold)}
-  .family{margin-top:30px; border:1px solid rgba(215,169,90,.35); border-radius:24px; padding:clamp(22px,2.6vw,34px); background:rgba(215,169,90,.07)}
-  .family .k{font-size:11px; font-weight:800; letter-spacing:.18em; text-transform:uppercase; color:var(--pilawa-gold)}
-  .family p{font-size:clamp(15px,1.25vw,17px); color:rgba(255,255,255,.8); line-height:1.55; margin-top:12px}
-  .family .trust{font-weight:900; font-size:clamp(36px,4.6vw,66px); letter-spacing:-.045em; line-height:1; color:var(--pilawa-gold); margin:14px 0 4px}
   /* ---------- Responsive ---------- */
   @media (max-width:980px){
-    #s2 .grid, .prog, #s3 .top, .cd-main, .vp-head, .gg-grid, #s6 .cd-head, .foot-grid{grid-template-columns:1fr !important}
+    #s2 .grid, .prog, #s3 .top, .cd-main, #s6 .cd-head, .foot-grid{grid-template-columns:1fr !important}
     #s5 .ph-col{order:0}
     .collage{grid-auto-rows:22vw}
     .c-a,.c-c{grid-column:span 3; grid-row:span 2}
@@ -304,7 +273,6 @@
     .reels{grid-template-columns:repeat(3,1fr)}
     .floathint{display:none}
     .insightcard{margin-top:10px}
-    .vp-grid{grid-template-columns:1fr 1fr}
   }
   @media (max-width:560px){
     .blocks,.cd-grid{grid-template-columns:1fr}
@@ -312,7 +280,6 @@
     .collage{grid-template-columns:repeat(2,1fr); grid-auto-rows:38vw}
     .c-a,.c-b,.c-c,.c-d,.c-e,.c-f{grid-column:span 1; grid-row:span 1}
     .senders{flex-wrap:wrap; gap:12px}
-    .vp-grid{grid-template-columns:1fr}
   }
 </style>
 </head>
@@ -331,8 +298,7 @@
   <a href="#s3" data-i="3" aria-label="Folie 3"></a>
   <a href="#s4" data-i="4" aria-label="Folie 4"></a>
   <a href="#s5" data-i="5" aria-label="Folie 5"></a>
-  <a href="#s5b" data-i="6" aria-label="Folie 6"></a>
-  <a href="#s6" data-i="7" aria-label="Folie 7"></a>
+  <a href="#s6" data-i="6" aria-label="Folie 6"></a>
 </nav>
 
 <!-- ============ 1 · HERO ============ -->
@@ -458,62 +424,12 @@
 </section>
 
 
-<!-- ============ 5 · VITAMIN P. ============ -->
-<section id="s5">
-  <div class="wrap">
-    <div class="vp-head">
-      <div>
-        <span class="eyebrow reveal">04 — Wer wir sind</span>
-        <h2 class="vp-title reveal d1">Vitamin&nbsp;<span class="p">P.</span></h2>
-        <p class="vp-sub reveal d2">Die Produktion für gesunden Content.</p>
-      </div>
-      <div class="reveal d3">
-        <p class="vp-claim">Gesundheit verdient Kommunikation, die Menschen erreicht.</p>
-        <p class="lead">Gesundheit braucht gute Geschichten. Aber gute Geschichten brauchen nicht automatisch große Apparate. Dabei setzen wir „gesund“ nicht nur als Schwerpunkt unserer Produktionen, sondern als Anspruch an die Produktion selbst.</p>
-      </div>
-    </div>
-    <div class="vp-grid">
-      <div class="vp-card reveal d1"><div class="k">01</div><div class="v">Gesunde Inhalte</div><div class="x">Wir machen komplexe Gesundheitsthemen verständlich, ohne sie banal zu machen. Medizinische Kompetenz trifft auf zeitgemäßes Storytelling.</div></div>
-      <div class="vp-card reveal d2"><div class="k">02</div><div class="v">Gesunde Produktionen</div><div class="x">So viel Produktion wie nötig. So wenig Aufwand wie möglich. Klare Abläufe, kurze Wege und Teams, die exakt zur Aufgabe passen.</div></div>
-      <div class="vp-card reveal d3"><div class="k">03</div><div class="v">Gesunde Budgets</div><div class="x">Wir denken vom Ergebnis aus – nicht von der Größe des Produktionsapparates. Jeder Euro soll dort ankommen, wo er im Film sichtbar und wirksam wird.</div></div>
-      <div class="vp-card reveal d4"><div class="k">04</div><div class="v">Gesunder Content</div><div class="x">Wir produzieren nicht einfach einen Film. Wir denken Content weiter: vom Hauptfilm über Social Assets, Interviews und Snippets bis zu Formaten für unterschiedliche Kanäle.</div></div>
-      <div class="vp-card reveal d5"><div class="k">05</div><div class="v">Gesunde Wirkung</div><div class="x">Ein Film ist für uns dann gut, wenn Menschen etwas verstehen, fühlen oder anders betrachten als vorher.</div></div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ 5b · GESUND GEDACHT ============ -->
-<section id="s5b">
-  <div class="wrap">
-    <div class="gg-grid">
-      <div>
-        <span class="eyebrow reveal">05 — Gesund gedacht</span>
-        <h2 class="h2 reveal d1" style="margin-top:.2em; font-size:clamp(34px,4.6vw,70px)">Gesundheit ist längst mehr als Medizin.</h2>
-        <p class="lead reveal d2">Genau deshalb braucht Gesundheitskommunikation eine eigene Sprache.</p>
-        <p class="gg-lines reveal d3">Weniger Fachsprache. <em>Mehr Verständnis.</em><br>Weniger Distanz. <em>Mehr Nähe.</em><br><em>Mehr Relevanz.</em></p>
-        <p class="lead reveal d4">Wir produzieren für Kliniken, Praxen und medizinische Einrichtungen ebenso wie für Health-Unternehmen, Versicherungen, Verbände, Pharma, MedTech, Präventionsanbieter und Unternehmen im betrieblichen Gesundheitsmanagement. Von der ersten Idee bis zum fertigen Content.</p>
-      </div>
-      <div>
-        <p class="gg-q reveal d2">Guter Gesundheitscontent beginnt nicht mit der Kamera. Sondern mit der Frage: <span>Was wollen wir eigentlich erzählen – und wen wollen wir erreichen?</span></p>
-        <p class="lead reveal d3" style="margin-top:0">Wir übersetzen Medizin, Prävention, Wissenschaft und Gesundheit in Geschichten, die Menschen verstehen, fühlen und gerne sehen.</p>
-        <div class="family reveal d4">
-          <div class="k">Eine Produktion aus der Familie</div>
-          <p>Wenn wir sagen, dass wir die Produktion für gesunde Filme sind, dann meinen wir damit nicht nur unsere Themen. Wir glauben, dass Gesundheit auch etwas damit zu tun hat, wie man arbeitet. Mit wem man arbeitet. Und wie man miteinander umgeht. Deshalb beginnt unsere Idee einer gesunden Produktion bei uns selbst.</p>
-          <p>Wir haben uns über Jahre etwas aufgebaut, das man in einer schnelllebigen Produktionswelt nicht einfach buchen kann:</p>
-          <div class="trust">Vertrauen.</div>
-          <p>Wir kennen uns. Wir kennen unsere Stärken. Wir können uns aufeinander verlassen. Wir müssen nicht bei jedem Projekt bei null anfangen. Und vielleicht ist genau das eine der gesündesten Formen, miteinander zu arbeiten.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ============ 6 · CREATIVE DIRECTION + ABSENDER ============ -->
 <section id="s6">
   <div class="wrap">
     <div class="cd-head">
       <div>
-        <span class="eyebrow reveal">06 — Creative Direction</span>
+        <span class="eyebrow reveal">03 — Creative Direction</span>
         <h2 class="h2 reveal d1" style="color:#fff; margin-top:.2em">Begleiten<br>statt belehren.</h2>
       </div>
       <p class="lead reveal d2" style="color:rgba(255,255,255,.75)">Eine Bildsprache im Zeitgeist der TK: modern, nahbar, mobil. Moderator:innen auf Augenhöhe, Grafiken die unterstützen statt dekorieren — „mobile first“ gedacht.</p>
